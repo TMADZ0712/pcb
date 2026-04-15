@@ -516,9 +516,7 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.0,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -529,11 +527,11 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "ESC VCC"
+        "pattern": "ESC GND"
       },
       {
         "netclass": "Power",
-        "pattern": "ESC GND"
+        "pattern": "ESC VCC"
       }
     ]
   },

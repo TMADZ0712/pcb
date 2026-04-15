@@ -4134,6 +4134,12 @@
 		(uuid "36602e16-b5d4-45bc-8c69-400e6ae6e198")
 	)
 	(junction
+		(at 156.21 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36dca50c-8a69-4961-b08b-ac694d4dc874")
+	)
+	(junction
 		(at 106.68 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5555,7 +5561,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 156.21 270)
+		(at 156.21 157.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5565,7 +5571,7 @@
 		(dnp no)
 		(uuid "14511d53-9439-49c5-a560-ea3f4fc59815")
 		(property "Reference" "#PWR042"
-			(at 149.86 156.21 0)
+			(at 149.86 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5576,7 +5582,7 @@
 			)
 		)
 		(property "Value" "ESC GND"
-			(at 150.876 156.21 90)
+			(at 147.066 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5586,7 +5592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 156.21 0)
+			(at 156.21 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5597,7 +5603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 156.21 0)
+			(at 156.21 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5608,7 +5614,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 156.21 0)
+			(at 156.21 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
