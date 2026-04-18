@@ -66,6 +66,18 @@
           ""
         ],
         [
+          "clearance|214390000|102365000|10ca6fb5-d36c-4588-9291-5faaeb8ff58b|5d6cf24d-5565-4613-8682-de724db89c52",
+          ""
+        ],
+        [
+          "clearance|217865000|100890000|0224b790-3a48-433e-a669-4f21e2bdfcc9|6aaaf495-d3d4-4d3e-9202-d4533f822344",
+          ""
+        ],
+        [
+          "lib_footprint_issues|212609099|114647902|ef70d40b-bb08-4580-86b4-a1da4db87e92|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "silk_edge_clearance|206165000|70000000|83cd4702-f612-499b-a597-c2911aa9e084|80300635-6657-44e7-8aa1-06f1f8b3538d",
           ""
         ],
@@ -527,10 +539,18 @@
         "wire_width": 6
       },
       {
+        "name": "3v3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "tuning_profile": ""
+      },
+      {
         "clearance": 0.3,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.0,
         "tuning_profile": ""
@@ -549,6 +569,10 @@
       {
         "netclass": "Power",
         "pattern": "ESC VCC"
+      },
+      {
+        "netclass": "3v3",
+        "pattern": "+3V3"
       }
     ]
   },
