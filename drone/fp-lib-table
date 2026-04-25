@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ESP32-S3-Supermini") (type "KiCad") (uri "C:/Users/TMADZ/Documents/pcb/Librayr/ESP32-S3-Supermini/ESP32-S3-Supermini.pretty") (options "") (descr ""))
+)
