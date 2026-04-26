@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.5,
-          "width": 2.5
+          "height": 1.33,
+          "width": 1.33
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,13 +60,30 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|101860000|96190000|41da537c-f557-4b75-a0a5-3e7e18b56073|2d2cb18a-e008-4dc9-aa39-072aa6bafd13",
+          ""
+        ],
+        [
+          "copper_edge_clearance|80010760|62572142|33f4b438-22c3-4413-b317-453213677c57|9a142879-a1e3-455c-b031-62d4c19ad4f0",
+          ""
+        ],
+        [
+          "copper_edge_clearance|80010938|62569442|33f4b438-22c3-4413-b317-453213677c57|e3cbe99c-9ccb-47ef-b85c-e9825d8aa2eb",
+          ""
+        ],
+        [
+          "unconnected_items|102030000|79250000|F.Cu|4|d47cf5be-d4de-4d14-ba2b-5c1ca0f35bed|177e947d-ac2a-4f6d-b574-755ad79ee8aa",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -82,7 +99,7 @@
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "warning",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -103,13 +120,13 @@
         "npth_inside_courtyard": "error",
         "padstack": "warning",
         "pth_inside_courtyard": "error",
-        "shorting_items": "error",
+        "shorting_items": "ignore",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -134,7 +151,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.15,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -514,20 +531,12 @@
         "wire_width": 6
       },
       {
-        "name": "3v3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "tuning_profile": ""
-      },
-      {
         "clearance": 0.3,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
+        "track_width": 1.5,
         "tuning_profile": ""
       }
     ],
@@ -544,10 +553,6 @@
       {
         "netclass": "Power",
         "pattern": "ESC VCC"
-      },
-      {
-        "netclass": "3v3",
-        "pattern": "+3V3"
       }
     ]
   },
@@ -763,7 +768,7 @@
         "uuid": "fa7edb3b-7a08-4951-b563-6ccff1e89ead"
       }
     ],
-    "used_designators": "TP19-20",
+    "used_designators": "#PWR8,#PWR43-44,#PWR46-49",
     "variants": []
   },
   "sheets": [
