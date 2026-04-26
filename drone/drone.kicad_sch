@@ -3206,12 +3206,6 @@
 		(uuid "3cafb254-e51e-48bd-bdee-71bed15424e6")
 	)
 	(junction
-		(at 151.13 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3de5392b-f98b-40b9-8a75-9b3823558f49")
-	)
-	(junction
 		(at 224.79 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3446,6 +3440,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 157.48) (xy 151.13 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7e2ad3-bb02-4524-85ad-2d11ebacd69e")
+	)
+	(wire
+		(pts
 			(xy 95.25 66.04) (xy 91.44 66.04)
 		)
 		(stroke
@@ -3453,6 +3457,16 @@
 			(type default)
 		)
 		(uuid "44812a69-4845-4d01-8cd7-659cf3385dcb")
+	)
+	(wire
+		(pts
+			(xy 156.21 161.29) (xy 156.21 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a9c032-e762-4204-80bf-165cbe2cc357")
 	)
 	(wire
 		(pts
@@ -3536,6 +3550,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 161.29) (xy 156.21 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "717fab7f-565c-47b6-9c3a-5b7d25b8efd9")
+	)
+	(wire
+		(pts
 			(xy 234.95 66.04) (xy 234.95 80.01)
 		)
 		(stroke
@@ -3583,16 +3607,6 @@
 			(type default)
 		)
 		(uuid "8f95934a-8a50-4eb9-8e18-7912e03a1c79")
-	)
-	(wire
-		(pts
-			(xy 151.13 157.48) (xy 151.13 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "961bd2da-98e1-4e25-b16b-d7003c00674a")
 	)
 	(wire
 		(pts
@@ -4754,83 +4768,6 @@
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 151.13 160.02 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "10a0f0ce-0b31-4655-a8c8-9123d6bfbea3")
-		(property "Reference" "#PWR044"
-			(at 144.78 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESC GND"
-			(at 143.51 160.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "70f17650-c676-4303-b2b7-27e08ea51891")
-		)
-		(instances
-			(project "drone"
-				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6778,6 +6715,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 149.86 161.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b75bd16-3c1d-4802-9ec5-9bcd3623e6ca")
+		(property "Reference" "TP19"
+			(at 144.78 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 147.8279 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+			(at 149.86 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 149.86 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6078810b-10a8-4e21-b936-419176bf6bf1")
+		)
+		(instances
+			(project "drone"
+				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 99.06 182.88 0)
 		(unit 1)
@@ -7871,83 +7887,6 @@
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 160.02 157.48 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6a6ebde6-b14a-491c-8ac0-b7f9efa3da38")
-		(property "Reference" "#PWR043"
-			(at 156.21 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESC VCC"
-			(at 167.64 157.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 160.02 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2f59d758-23d7-4de8-b4b4-7e2be8d85463")
-		)
-		(instances
-			(project "drone"
-				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -10715,6 +10654,85 @@
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 160.02 157.48 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3ed5fff-8d25-4f84-bdd7-071cc4c7061d")
+		(property "Reference" "TP20"
+			(at 165.1 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 162.0521 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+			(at 160.02 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f742a91-3b80-43ed-9772-61c3d52d670c")
+		)
+		(instances
+			(project "drone"
+				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
+					(reference "TP20")
 					(unit 1)
 				)
 			)
