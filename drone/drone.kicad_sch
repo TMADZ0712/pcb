@@ -2633,6 +2633,321 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:AO3400A"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3400A"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AO3400A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3400A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -3040,6 +3355,18 @@
 		(uuid "60fc3fd1-b68c-4103-b239-29a984cacc1b")
 	)
 	(rectangle
+		(start 219.71 109.22)
+		(end 287.02 166.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "70cc5917-130b-4393-976c-10266f509523")
+	)
+	(rectangle
 		(start 10.16 10.16)
 		(end 134.62 109.22)
 		(stroke
@@ -3098,6 +3425,16 @@
 			(type none)
 		)
 		(uuid "b595cb90-1b16-44c5-a8c0-0325c5939566")
+	)
+	(text "Indicators\n"
+		(exclude_from_sim no)
+		(at 251.968 112.014 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+		)
+		(uuid "073bfdb0-e9df-4125-8996-24a676a70245")
 	)
 	(text "EXTEND I2C\n"
 		(exclude_from_sim no)
@@ -3218,6 +3555,12 @@
 		(uuid "5879f264-a67a-46af-a87b-5b4baad37f51")
 	)
 	(junction
+		(at 154.94 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6651767a-0623-4f6f-9c26-5da95e30c204")
+	)
+	(junction
 		(at 87.63 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3236,10 +3579,22 @@
 		(uuid "944c3b1c-0605-4f07-8a0a-44fb7425bd1a")
 	)
 	(junction
+		(at 160.02 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3d324c8-6602-4c7f-ab0e-9d29f641cf2a")
+	)
+	(junction
 		(at 151.13 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf78ebce-32c7-49d2-8731-c6d5d2ee5ccd")
+	)
+	(junction
+		(at 156.21 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8693245-9f5f-450b-9de9-04f9eab6e077")
 	)
 	(junction
 		(at 234.95 80.01)
@@ -3252,12 +3607,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d72c4117-f765-4a65-854b-0100ab7c97f7")
-	)
-	(junction
-		(at 156.21 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7b95906-3999-47d5-a969-d41d22a54eaf")
 	)
 	(junction
 		(at 137.16 167.64)
@@ -3278,6 +3627,16 @@
 	(no_connect
 		(at 184.15 50.8)
 		(uuid "94db5962-59bc-45ee-8f62-1966d3891a85")
+	)
+	(wire
+		(pts
+			(xy 156.21 161.29) (xy 156.21 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "052b3245-89c5-4cf7-a686-67d2b994cdb0")
 	)
 	(wire
 		(pts
@@ -3391,6 +3750,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 165.1) (xy 160.02 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3244e58b-dd13-46ca-b6b5-833c9f34111e")
+	)
+	(wire
+		(pts
 			(xy 226.06 58.42) (xy 219.71 58.42)
 		)
 		(stroke
@@ -3441,13 +3810,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 161.29) (xy 156.21 157.48)
+			(xy 154.94 161.29) (xy 156.21 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47a9c032-e762-4204-80bf-165cbe2cc357")
+		(uuid "4f87c92a-e6bb-4a37-80f8-8b85669f8401")
 	)
 	(wire
 		(pts
@@ -3458,6 +3827,16 @@
 			(type default)
 		)
 		(uuid "54cffcd0-59a5-42ab-8a42-b58fd23f53ca")
+	)
+	(wire
+		(pts
+			(xy 160.02 161.29) (xy 160.02 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55db3b9b-cb3d-4283-aa5d-a5dad2c9a5c1")
 	)
 	(wire
 		(pts
@@ -3531,7 +3910,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 161.29) (xy 156.21 161.29)
+			(xy 149.86 161.29) (xy 154.94 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3651,6 +4030,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 165.1) (xy 162.56 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe8c77d-51d2-467b-a196-cf30fc3f1cd4")
+	)
+	(wire
+		(pts
 			(xy 30.48 168.91) (xy 30.48 177.8)
 		)
 		(stroke
@@ -3721,6 +4110,26 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 161.29) (xy 154.94 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5647203-eb28-426f-b83b-ca6efebdc358")
+	)
+	(wire
+		(pts
+			(xy 160.02 165.1) (xy 160.02 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df119756-85bc-4fc0-91bb-08d917f9fe24")
+	)
+	(wire
+		(pts
 			(xy 109.22 153.67) (xy 91.44 153.67)
 		)
 		(stroke
@@ -3788,6 +4197,26 @@
 			(justify left bottom)
 		)
 		(uuid "3bd048ee-8421-4ee4-986d-8d99daf49f6b")
+	)
+	(label "Buzzer"
+		(at 242.57 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56431307-4a22-470d-ab3f-1fdeb7fe7c64")
+	)
+	(label "Buzzer"
+		(at 87.63 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f022666-fd4c-42b6-9f44-b7abc387bbb2")
 	)
 	(label "XDA"
 		(at 219.71 53.34 0)
@@ -4290,7 +4719,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00e94267-bc8d-4fee-b366-e7188cb0be39")
-		(property "Reference" "TP4"
+		(property "Reference" "+1"
 			(at 30.48 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4352,7 +4781,7 @@
 		(instances
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
-					(reference "TP4")
+					(reference "+1")
 					(unit 1)
 				)
 			)
@@ -5464,8 +5893,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22dc6408-5e23-402d-bd3c-5cf383066513")
-		(property "Reference" "TP15"
-			(at 102.87 120.6499 90)
+		(property "Reference" "LED2"
+			(at 102.87 121.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5526,7 +5955,7 @@
 		(instances
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
-					(reference "TP15")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -5544,8 +5973,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28a3b6e4-ed6b-42c4-b9ed-e51c5b65b287")
-		(property "Reference" "TP17"
-			(at 138.43 120.6499 90)
+		(property "Reference" "LED3"
+			(at 138.43 121.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5606,7 +6035,7 @@
 		(instances
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
-					(reference "TP17")
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -6152,8 +6581,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "314cf78f-4f15-488d-837e-4de20560f1df")
-		(property "Reference" "TP18"
-			(at 138.43 123.1899 90)
+		(property "Reference" "ESC4"
+			(at 138.43 124.4599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6214,7 +6643,7 @@
 		(instances
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
-					(reference "TP18")
+					(reference "ESC4")
 					(unit 1)
 				)
 			)
@@ -6469,7 +6898,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3af892cc-07d2-46c3-9548-a62073118a50")
-		(property "Reference" "TP7"
+		(property "Reference" "-3"
 			(at 102.87 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6531,7 +6960,7 @@
 		(instances
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
-					(reference "TP7")
+					(reference "-3")
 					(unit 1)
 				)
 			)
@@ -6773,6 +7202,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 250.19 142.24 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "496fa69a-9d25-43e7-9b30-dcb2496bd822")
+		(property "Reference" "#PWR024"
+			(at 246.38 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 254 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 250.19 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4cc1a090-2349-4c9b-a0dc-5d13b188763c")
+		)
+		(instances
+			(project "drone"
+				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 184.15 55.88 270)
 		(unit 1)
@@ -6846,6 +7354,85 @@
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 250.19 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c04e385-5fcf-4214-81e2-be2a4d065032")
+		(property "Reference" "-Buzzer1"
+			(at 250.19 124.206 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 248.1579 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 250.19 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 250.19 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d32aa814-36f1-4cd3-96ee-11a116bcd400")
+		)
+		(instances
+			(project "drone"
+				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
+					(reference "-Buzzer1")
 					(unit 1)
 				)
 			)
@@ -7026,8 +7613,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b832807-982c-459b-9011-0db2af8cbefe")
-		(property "Reference" "TP16"
-			(at 102.87 123.1899 90)
+		(property "Reference" "ESC3"
+			(at 102.87 124.4599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7088,7 +7675,7 @@
 		(instances
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
-					(reference "TP16")
+					(reference "ESC3")
 					(unit 1)
 				)
 			)
@@ -8026,6 +8613,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 247.65 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f78913c-b6c2-4c90-bb8d-6ab236069678")
+		(property "Reference" "Q1"
+			(at 254 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 254 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 252.73 133.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 252.73 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 247.65 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ed3dadea-6e4a-44e9-9de5-c5ab41d6d396")
+		)
+		(pin "2"
+			(uuid "7260b9c6-7aca-41d9-a1d8-b553dfabafad")
+		)
+		(pin "1"
+			(uuid "969755c4-98e7-45c5-8aa2-b16418473a5f")
+		)
+		(instances
+			(project "drone"
+				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 30.48 185.42 0)
 		(unit 1)
@@ -8350,8 +9025,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73e76de5-a682-41d2-90bf-184cf10c3caa")
-		(property "Reference" "TP13"
-			(at 66.04 120.6499 90)
+		(property "Reference" "TPLED1"
+			(at 66.04 121.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8412,7 +9087,7 @@
 		(instances
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
-					(reference "TP13")
+					(reference "TPLED1")
 					(unit 1)
 				)
 			)
@@ -8669,8 +9344,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82343d1c-263a-4d12-8752-54ad8c244c51")
-		(property "Reference" "TP11"
-			(at 30.48 120.6499 90)
+		(property "Reference" "LED1"
+			(at 30.48 121.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8731,7 +9406,7 @@
 		(instances
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
-					(reference "TP11")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -8816,6 +9491,85 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 250.19 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "892ceafe-d1bc-48aa-bc88-ddb3792aaaf2")
+		(property "Reference" "+Buzzer1"
+			(at 250.444 144.526 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 248.1579 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 250.19 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 250.19 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40a7b18e-1287-4211-8539-2b1162782b51")
+		)
+		(instances
+			(project "drone"
+				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
+					(reference "+Buzzer1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 60.96 124.46 270)
 		(unit 1)
 		(body_style 1)
@@ -8826,8 +9580,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ed2dd24-8a85-4749-b644-a79bd7d59f7b")
-		(property "Reference" "TP14"
-			(at 66.04 123.1899 90)
+		(property "Reference" "ESC2"
+			(at 66.04 124.4599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8888,7 +9642,84 @@
 		(instances
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
-					(reference "TP14")
+					(reference "ESC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.19 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9163335e-2a43-4361-92f4-16cce9df0200")
+		(property "Reference" "#PWR020"
+			(at 250.19 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 138.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76fe53b6-bbb6-4d59-9029-91a2c36d4f66")
+		)
+		(instances
+			(project "drone"
+				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8905,7 +9736,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d22648e-d33e-441e-914b-964e0d6fff37")
-		(property "Reference" "TP9"
+		(property "Reference" "-4"
 			(at 138.43 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8967,7 +9798,7 @@
 		(instances
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
-					(reference "TP9")
+					(reference "-4")
 					(unit 1)
 				)
 			)
@@ -8984,7 +9815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9de71650-82d3-4bf8-abe3-8485f728358d")
-		(property "Reference" "TP3"
+		(property "Reference" "-1"
 			(at 30.48 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9046,7 +9877,7 @@
 		(instances
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
-					(reference "TP3")
+					(reference "-1")
 					(unit 1)
 				)
 			)
@@ -9063,7 +9894,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0456371-d709-4cd0-8c65-58247bdbef7e")
-		(property "Reference" "TP5"
+		(property "Reference" "-2"
 			(at 66.04 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9125,7 +9956,7 @@
 		(instances
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
-					(reference "TP5")
+					(reference "-2")
 					(unit 1)
 				)
 			)
@@ -9142,7 +9973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1a434f9-91de-43b4-b452-58ba46c7a81b")
-		(property "Reference" "TP10"
+		(property "Reference" "+4"
 			(at 138.43 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9204,7 +10035,7 @@
 		(instances
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
-					(reference "TP10")
+					(reference "+4")
 					(unit 1)
 				)
 			)
@@ -9368,7 +10199,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 157.48 0)
+		(at 154.94 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9378,7 +10209,7 @@
 		(dnp no)
 		(uuid "aa96d879-d4e0-47c8-9167-6632fdf5fb81")
 		(property "Reference" "#PWR026"
-			(at 156.21 163.83 0)
+			(at 154.94 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9389,7 +10220,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 161.29 0)
+			(at 157.48 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9400,7 +10231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 157.48 0)
+			(at 154.94 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9411,7 +10242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 157.48 0)
+			(at 154.94 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9422,7 +10253,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 157.48 0)
+			(at 154.94 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10399,8 +11230,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8dffaf9-e35a-4aa5-9252-29014e2519df")
-		(property "Reference" "TP12"
-			(at 30.48 123.1899 90)
+		(property "Reference" "ESC1"
+			(at 30.48 124.4599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10461,7 +11292,7 @@
 		(instances
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
-					(reference "TP12")
+					(reference "ESC1")
 					(unit 1)
 				)
 			)
@@ -10711,7 +11542,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 160.02 157.48 270)
+		(at 160.02 161.29 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10721,7 +11552,7 @@
 		(dnp no)
 		(uuid "e3ed5fff-8d25-4f84-bdd7-071cc4c7061d")
 		(property "Reference" "TP20"
-			(at 165.1 156.21 0)
+			(at 165.1 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10732,7 +11563,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 162.0521 160.02 0)
+			(at 162.0521 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10744,7 +11575,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
-			(at 160.02 162.56 0)
+			(at 160.02 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10755,7 +11586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 162.56 0)
+			(at 160.02 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10766,7 +11597,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 160.02 157.48 0)
+			(at 160.02 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10799,7 +11630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6e804c2-005c-4ff7-9b24-d693f9497bcc")
-		(property "Reference" "TP6"
+		(property "Reference" "+2"
 			(at 66.04 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10861,7 +11692,7 @@
 		(instances
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
-					(reference "TP6")
+					(reference "+2")
 					(unit 1)
 				)
 			)
@@ -10878,7 +11709,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec21fab8-6833-4a52-89f6-099cc2cebc6b")
-		(property "Reference" "TP8"
+		(property "Reference" "+3"
 			(at 102.87 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10940,7 +11771,7 @@
 		(instances
 			(project "drone"
 				(path "/fa7edb3b-7a08-4951-b563-6ccff1e89ead"
-					(reference "TP8")
+					(reference "+3")
 					(unit 1)
 				)
 			)
@@ -11185,7 +12016,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 160.02 157.48 180)
+		(at 162.56 179.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11195,7 +12026,7 @@
 		(dnp no)
 		(uuid "f914471e-a40c-4533-95bb-b13509fa9f5e")
 		(property "Reference" "#PWR030"
-			(at 160.02 153.67 0)
+			(at 162.56 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11206,7 +12037,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 163.83 160.02 0)
+			(at 166.37 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11216,7 +12047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 157.48 0)
+			(at 162.56 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11227,7 +12058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 157.48 0)
+			(at 162.56 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11238,7 +12069,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 160.02 157.48 0)
+			(at 162.56 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

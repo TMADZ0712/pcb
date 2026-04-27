@@ -768,7 +768,7 @@
         "uuid": "fa7edb3b-7a08-4951-b563-6ccff1e89ead"
       }
     ],
-    "used_designators": "#PWR8,#PWR43-44,#PWR46-49",
+    "used_designators": "LED1-3,+1-4,C1,\\-1-4,TPLED1",
     "variants": []
   },
   "sheets": [
