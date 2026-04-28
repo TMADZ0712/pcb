@@ -74,7 +74,7 @@
           ""
         ],
         [
-          "unconnected_items|102030000|79250000|F.Cu|4|d47cf5be-d4de-4d14-ba2b-5c1ca0f35bed|177e947d-ac2a-4f6d-b574-755ad79ee8aa",
+          "courtyards_overlap|116224697|99955000|3a373929-6de5-4049-95dd-c7ae4594f023|c710bc47-fe54-4b2f-bf8b-e825ff4273be",
           ""
         ]
       ],
@@ -768,7 +768,7 @@
         "uuid": "fa7edb3b-7a08-4951-b563-6ccff1e89ead"
       }
     ],
-    "used_designators": "LED1-3,+1-4,C1,\\-1-4,TPLED1",
+    "used_designators": "#PWR10,#PWR28,#PWR43,TP3-12",
     "variants": []
   },
   "sheets": [
