@@ -90,15 +90,7 @@
           ""
         ],
         [
-          "track_not_centered_on_via|110400000|101600000|0eabe9f9-5e71-4e4c-92db-a1993481ee8e|c37f5c0d-437e-41c8-9f13-f40cd141a09a",
-          ""
-        ],
-        [
           "track_not_centered_on_via|110500000|101600000|999a3b96-11e1-4f2e-9b59-3bbac45e5f0e|c37f5c0d-437e-41c8-9f13-f40cd141a09a",
-          ""
-        ],
-        [
-          "track_not_centered_on_via|111100000|101600000|10de375b-6682-4bff-bacd-1c754e8e3391|5ea55002-a8f1-482e-b3a3-29ee6e5adeeb",
           ""
         ],
         [
@@ -110,11 +102,7 @@
           ""
         ],
         [
-          "track_not_centered_on_via|111800000|101600000|e0c23472-b497-4813-9007-7881d45d55d2|e62bbc45-c634-4528-aed5-321e1be6eece",
-          ""
-        ],
-        [
-          "unconnected_items|103250000|80470000|F.Cu|4|177e947d-ac2a-4f6d-b574-755ad79ee8aa|d47cf5be-d4de-4d14-ba2b-5c1ca0f35bed",
+          "unconnected_items|103250000|80470000|F.Cu|4|177e947d-ac2a-4f6d-b574-755ad79ee8aa|a810da8b-0c16-4db9-a904-62b3fd664260",
           ""
         ]
       ],
@@ -571,10 +559,17 @@
         "wire_width": 6
       },
       {
+        "name": "5v",
+        "pcb_color": "rgb(234, 0, 255)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
         "clearance": 0.3,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.5,
         "tuning_profile": ""
@@ -593,6 +588,10 @@
       {
         "netclass": "Power",
         "pattern": "ESC VCC"
+      },
+      {
+        "netclass": "5v",
+        "pattern": "+5V"
       }
     ]
   },
@@ -808,7 +807,7 @@
         "uuid": "fa7edb3b-7a08-4951-b563-6ccff1e89ead"
       }
     ],
-    "used_designators": "#PWR10,#PWR28,#PWR43,TP3-12",
+    "used_designators": "#PWR1-2,#PWR25,#PWR31-32",
     "variants": []
   },
   "sheets": [
