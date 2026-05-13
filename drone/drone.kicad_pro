@@ -78,6 +78,10 @@
           ""
         ],
         [
+          "lib_footprint_issues|103412500|69125000|742bb506-10ec-425e-9dba-ff43c7fe9ffa|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "silk_edge_clearance|111750000|57975000|33f4b438-22c3-4413-b317-453213677c57|5339b1f5-905c-42d9-8438-7b5eb052e273",
           ""
         ],
@@ -94,7 +98,7 @@
           ""
         ],
         [
-          "unconnected_items|103250000|80470000|F.Cu|4|177e947d-ac2a-4f6d-b574-755ad79ee8aa|84e0e4f9-785b-43e1-af76-1b906d09288d",
+          "unconnected_items|103250000|80470000|F.Cu|4|177e947d-ac2a-4f6d-b574-755ad79ee8aa|d47cf5be-d4de-4d14-ba2b-5c1ca0f35bed",
           ""
         ]
       ],
@@ -551,12 +555,10 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.3,
         "name": "5v",
         "pcb_color": "rgb(234, 0, 255)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
         "tuning_profile": ""
       },
       {
@@ -801,7 +803,7 @@
         "uuid": "fa7edb3b-7a08-4951-b563-6ccff1e89ead"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U4,D1,#PWR3,#PWR29,#PWR31,C14-15,R5",
     "variants": []
   },
   "sheets": [
