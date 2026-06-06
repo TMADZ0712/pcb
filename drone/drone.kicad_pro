@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.33,
-          "width": 1.33
+          "drill": 0.5,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -78,10 +78,6 @@
           ""
         ],
         [
-          "lib_footprint_issues|103412500|69125000|742bb506-10ec-425e-9dba-ff43c7fe9ffa|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "silk_edge_clearance|111750000|57975000|33f4b438-22c3-4413-b317-453213677c57|5339b1f5-905c-42d9-8438-7b5eb052e273",
           ""
         ],
@@ -90,15 +86,15 @@
           ""
         ],
         [
+          "track_not_centered_on_via|110500000|101600000|10de375b-6682-4bff-bacd-1c754e8e3391|c37f5c0d-437e-41c8-9f13-f40cd141a09a",
+          ""
+        ],
+        [
           "track_not_centered_on_via|110500000|101600000|999a3b96-11e1-4f2e-9b59-3bbac45e5f0e|c37f5c0d-437e-41c8-9f13-f40cd141a09a",
           ""
         ],
         [
           "track_not_centered_on_via|111100000|101600000|caff005f-5013-43cb-8a87-90d0c196dd5d|5ea55002-a8f1-482e-b3a3-29ee6e5adeeb",
-          ""
-        ],
-        [
-          "unconnected_items|103250000|80470000|F.Cu|4|177e947d-ac2a-4f6d-b574-755ad79ee8aa|d47cf5be-d4de-4d14-ba2b-5c1ca0f35bed",
           ""
         ]
       ],
@@ -753,6 +749,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -803,7 +805,7 @@
         "uuid": "fa7edb3b-7a08-4951-b563-6ccff1e89ead"
       }
     ],
-    "used_designators": "U4,D1,#PWR3,#PWR29,#PWR31,C14-15,R5",
+    "used_designators": "TP15-17,C1",
     "variants": []
   },
   "sheets": [
